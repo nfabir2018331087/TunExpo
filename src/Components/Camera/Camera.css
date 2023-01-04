@@ -1,0 +1,15 @@
+.bg-theme-light{
+    background-color: rgb(22, 0, 56);
+}
+.bg-camera-img{
+    background-image: url('../../img/bgwhite.jpg');
+    width: fit-content;
+    height: 400px;
+    background-size: cover;
+}
+.bg-photo{
+    background-image: url('../../img/bgwhite.jpg');
+    width: fit-content;
+    height: 100%;
+    background-size: cover;
+}
