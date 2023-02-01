@@ -6,10 +6,10 @@ import logo from '../../img/logo.jpg'
 export default function Navigation() {
   return (
     <div className='bg-theme  d-flex '> 
-      <Nav className="container my-auto" activeKey="/home">
+      <Nav className="container my-auto" activeKey="/">
       <Nav.Item className=' d-flex'>
         <img src={logo} width="55px" height="50px" alt="" className='rounded-3 my-auto'/>
-        <Nav.Link href="/home" className='text-light me-5 my-auto brand-name'>Tune.Expo</Nav.Link>
+        <Nav.Link href="/" className='text-light me-5 my-auto brand-name'>Tune.Expo</Nav.Link>
         </Nav.Item>
         <Nav.Item className=' d-flex'>
           <Nav.Link href="/home" className='text-light my-auto'>Musics</Nav.Link>
@@ -26,17 +26,17 @@ export default function Navigation() {
           </Nav.Link>
         </Nav.Item> */}
         <Nav.Item className=' d-flex'>
-          <Nav.Link href="/home" className='text-light my-auto'>AboutUs</Nav.Link>
+          <Nav.Link href="/aboutus" className='text-light my-auto'>AboutUs</Nav.Link>
         </Nav.Item>
         <Nav.Item className=' d-flex'>
-          <Nav.Link href="/home" className='text-light my-auto'>ContactUs</Nav.Link>
+          <Nav.Link href="/contactus" className='text-light my-auto'>ContactUs</Nav.Link>
         </Nav.Item>
 
         <Nav.Item className='ms-auto d-flex'>
-          <Nav.Link href="/home" className='text-light my-auto'>LogIn</Nav.Link>
+          <Nav.Link href="/login" className='text-light my-auto'>LogIn</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link href="/home" className='text-light'><button className='btn btn-outline-light m-0'>SignIn</button></Nav.Link>
+          <Nav.Link href="/signup" className='text-light'><button className='btn btn-outline-light m-0'>SignIn</button></Nav.Link>
         </Nav.Item>
       </Nav>
       </div>

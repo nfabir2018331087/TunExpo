@@ -8,12 +8,11 @@ import Navigation from '../Navigation/Navigation'
 export default function Home() {
   return (
     <div>
-        <Navigation></Navigation>
+       
         <Hero></Hero>
        <Camera></Camera>
         <DragDropFiles></DragDropFiles>
-        <Footer></Footer>
-        
+    
     </div>
   )
 }
