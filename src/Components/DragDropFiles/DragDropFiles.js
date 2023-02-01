@@ -1,6 +1,8 @@
 import { useState, useRef } from "react";
+import DriveFolderUploadIcon from '@mui/icons-material/DriveFolderUpload';
 import "./DragDropFiles.css";
 import imgpng from '../../img/image.png'
+import drag from '../../img/drag2.png'
 
 const DragDropFiles = () => {
   const [files, setFiles] = useState(null);
@@ -51,8 +53,9 @@ const DragDropFiles = () => {
           onDragOver={handleDragOver}
           onDrop={handleDrop}
         >
-          <h1 className="fs-4">
-            Drag and Drop to upload Image <br /> or{" "}
+          <img src={drag} alt="" width="140px" height="100px"/>
+          <h1 className="fs-5 my-3">
+            Drag and Drop <br />
           </h1>
 
           <input
@@ -64,11 +67,11 @@ const DragDropFiles = () => {
             ref={inputRef}
           />
           <button
-            className="btn btn-primary text-light px-5 py-3"
+            className="btn btn-p text-light px-4 d-flex py-2"
             onClick={() => inputRef.current.click()}
           >
-            <img src={imgpng} width="30px" className="me-2 ps-0" alt="icon"/>
-            Choose image
+            < DriveFolderUploadIcon/>
+           <p className="my-auto ms-2"> Choose image</p>
           </button>
         </div>
       </div>

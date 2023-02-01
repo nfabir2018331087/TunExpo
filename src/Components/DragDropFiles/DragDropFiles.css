@@ -10,6 +10,7 @@
   border: 2px dashed rgb(33, 0, 89);
   padding: 2rem;
   
+  
 }
 
 .active-d {
@@ -53,3 +54,7 @@
     border: 2px solid #34d44f;
     opacity: 0.2;
   }    
+
+  .btn-p{
+    background-color: rgb(22, 146, 254);
+  }
