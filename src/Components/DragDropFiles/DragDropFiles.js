@@ -47,9 +47,12 @@ const DragDropFiles = () => {
 
   return (
     <>
-      <div className="bg-theme-d py-md-5">
+      <div className="bg-theme-d pt-5">
+      
+   
+      <div id='Music' className="py-5">
         <div
-          className="dropzone active-d container rounded-3"
+          className="dropzone active-d container rounded-3 "
           onDragOver={handleDragOver}
           onDrop={handleDrop}
         >
@@ -74,6 +77,7 @@ const DragDropFiles = () => {
            <p className="my-auto ms-2"> Choose image</p>
           </button>
         </div>
+      </div>
       </div>
     </>
   );

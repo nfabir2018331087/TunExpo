@@ -12,11 +12,11 @@ export default function Navigation() {
         <Nav.Link href="/" className='text-light me-5 my-auto brand-name'>Tune.Expo</Nav.Link>
         </Nav.Item>
         <Nav.Item className=' d-flex'>
-          <Nav.Link href="/home" className='text-light my-auto'>Musics</Nav.Link>
+          <Nav.Link href="#Music" className='text-light my-auto'>Musics</Nav.Link>
         </Nav.Item>
-         <Nav.Item className=' d-flex'>
+         {/* <Nav.Item className=' d-flex'>
           <Nav.Link eventKey="link-1" className='text-light my-auto'>Videos</Nav.Link>
-        </Nav.Item>
+        </Nav.Item> */}
          {/*<Nav.Item className='d-flex'>
           <Nav.Link eventKey="link-2" className='text-light my-auto'>Support</Nav.Link>
         </Nav.Item>
@@ -29,7 +29,7 @@ export default function Navigation() {
           <Nav.Link href="/aboutus" className='text-light my-auto'>AboutUs</Nav.Link>
         </Nav.Item>
         <Nav.Item className=' d-flex'>
-          <Nav.Link href="/contactus" className='text-light my-auto'>ContactUs</Nav.Link>
+          <Nav.Link href="/contact" className='text-light my-auto'>ContactUs</Nav.Link>
         </Nav.Item>
 
         <Nav.Item className='ms-auto d-flex'>

@@ -3,6 +3,7 @@ import Camera from '../Camera/Camera'
 import DragDropFiles from '../DragDropFiles/DragDropFiles'
 import Footer from '../Footer/Footer'
 import Hero from '../Hero/Hero'
+import MusicUI from '../MusicList/MusicUI'
 import Navigation from '../Navigation/Navigation'
 
 export default function Home() {
@@ -10,8 +11,9 @@ export default function Home() {
     <div>
        
         <Hero></Hero>
-       <Camera></Camera>
+        <Camera></Camera>
         <DragDropFiles></DragDropFiles>
+        <MusicUI></MusicUI>
     
     </div>
   )
