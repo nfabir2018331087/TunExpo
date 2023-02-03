@@ -44,7 +44,7 @@ const Camera = () => {
 
   return (
     <>
-      <div className="bg-theme-light pb-5">
+      <div id = 'camera' className="bg-theme-light pb-5">
         <div className="container py-5">
           <h3 className="pt-5 text-light fs-2">
             Camera is finding you Please Look at the Camera
