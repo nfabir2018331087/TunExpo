@@ -3,7 +3,8 @@ import "./AboutUs.css";
 import './style.css'
 import Container from "react-bootstrap/Container";
 import ab from "../../img/about.jpg";
-import dp from '../../img/dp4.jpg'
+import dp4 from '../../img/dp44.jpg'
+import dp3 from '../../img/dp3.jpeg'
 
 export default function AboutUs() {
   return (
@@ -36,10 +37,10 @@ export default function AboutUs() {
         </div>
       </div>
       <div className="container mb-5">
-        <h1 className="textAbout fs-1 my-3">Meeet our Team</h1>
+        <h1 className="textAbout fs-1 my-3">Meet our AI Team</h1>
         <p className="pb-4">
           We are a group of music lovers and technology enthusiasts who believe
-          that everyone deserves access to great music. Our team is dedicated to
+          that everyone deserves access to great music.<br/> Our team is dedicated to
           bringing you the best music recommendation experience possible.
         </p>
       </div>
@@ -47,14 +48,14 @@ export default function AboutUs() {
       <div class="container my-5 ">
            
             <div className="row d-flex justify-content-around gap-5 mb-5">
-                <div className="column col-3 py-4 rounded-3 shadow">
+                <div className="column py-4 rounded-3 border border-info">
                     <div className="team-6">
                         <div className="team-img">
-                            <img src={dp} className="" alt="Team Image"  />
+                            <img src={dp3} className="" alt="Team Image"  />
                         </div>
                         <div className="team-content">
                         <h4>Muhit Mahmud</h4>
-                            <h3>Frontend , Backend & Ai Modle Analyzer</h3>
+                            <h3>Frontend , Backend & AI Model Analyzer</h3>
                             <div className="team-social">
                                 <a className="social-tw" href=""><i className="fab fa-twitter"></i></a>
                                 <a className="social-fb" href=""><i className="fab fa-facebook-f"></i></a>
@@ -65,14 +66,14 @@ export default function AboutUs() {
                         </div>
                     </div>
                 </div>
-                <div className="column col-3 py-4 rounded-3 shadow">
+                <div className="column py-4 rounded-3 border border-info">
                     <div className="team-6">
                         <div className="team-img">
-                        <img src={dp} alt="Team Image"/>
+                        <img src={dp3} alt="Team Image"/>
                         </div>
                         <div class="team-content">
                             <h4>Amir Hamza</h4>
-                            <h3>Backend & Ai Modle Analyzer</h3>
+                            <h3>Backend & AI Model Analyzer</h3>
                             <div class="team-social">
                                 <a className="social-tw" href=""><i className="fab fa-twitter"></i></a>
                                 <a className="social-fb" href=""><i className="fab fa-facebook-f"></i></a>
@@ -83,14 +84,14 @@ export default function AboutUs() {
                         </div>
                     </div>
                 </div>
-                <div className="column col-3 py-4 rounded-3 shadow">
+                <div className="column py-4 rounded-3 border border-info">
                     <div className="team-6">
                         <div className="team-img">
-                        <img src={dp} alt="Team Image"/>
+                        <img src={dp3} alt="Team Image"/>
                         </div>
                         <div className="team-content">
                         <h4>Nafis Fuad Abir</h4>
-                            <h3>Backend & Ai Modle Analyzer</h3>
+                            <h3>Backend & AI Model Analyzer</h3>
                             <div className="team-social">
                                 <a className="social-tw" href=""><i className="fab fa-twitter"></i></a>
                                 <a className="social-fb" href=""><i className="fab fa-facebook-f"></i></a>
@@ -104,14 +105,14 @@ export default function AboutUs() {
                 
             </div> 
             <div className="row d-flex justify-content-center gap-5 ">
-                <div className="column col-3 py-4 rounded-3 shadow me-5">
+                <div className="column py-4 rounded-3 border border-info me-4">
                     <div className="team-6">
                         <div className="team-img">
-                            <img src={dp} className="" alt="Team Image"  />
+                            <img src={dp4} className="" alt="Team Image"  />
                         </div>
                         <div className="team-content">
                            <h4>Abdul Kader Akash</h4>
-                            <h3>Frontend & Ai Modle Analyzer</h3>
+                            <h3>Frontend & AI Model Analyzer</h3>
                             <div className="team-social">
                                 <a className="social-tw" href=""><i className="fab fa-twitter"></i></a>
                                 <a className="social-fb" href=""><i className="fab fa-facebook-f"></i></a>
@@ -122,14 +123,14 @@ export default function AboutUs() {
                         </div>
                     </div>
                 </div>
-                <div className="column col-3 py-4 rounded-3 shadow ms-5">
+                <div className="column py-4 rounded-3 border border-info ms-4">
                     <div className="team-6">
                         <div className="team-img">
-                        <img src={dp} alt="Team Image"/>
+                        <img src={dp3} alt="Team Image"/>
                         </div>
                         <div className="team-content">
                         <h4>Ahmadul Islam</h4>
-                            <h3>Frontend , Backend & Ai Modle Analyzer</h3>
+                            <h3>Frontend , Backend & AI Model Analyzer</h3>
                             <div className="team-social">
                                 <a className="social-tw" href=""><i className="fab fa-twitter"></i></a>
                                 <a className="social-fb" href=""><i className="fab fa-facebook-f"></i></a>

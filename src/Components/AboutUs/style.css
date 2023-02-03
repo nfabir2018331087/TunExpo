@@ -1,4 +1,6 @@
-
+.column{
+    max-width: 370px !important;
+}
 
 .team-6 {
     margin-bottom: 30px;
@@ -15,8 +17,8 @@
 }
 
 .team-6 .team-img img {
-    width: 250px;
-    height: 200px;
+    width: 240px;
+    height: 240px;
     height: auto;
     border-radius: 100%;
     border: 10px solid #ffffff;
