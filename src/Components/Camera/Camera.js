@@ -57,7 +57,7 @@ const Camera = () => {
         </div>
 
         <div className="container d-flex w-100">
-          <div className="w-50 mx-auto p-4">
+          <div className="w-25 mx-auto p-4">
             <Webcam
               ref={webcamRef}
               screenshotFormat="image/jpeg"
@@ -66,7 +66,7 @@ const Camera = () => {
               className="wCam"
             />
           </div>
-          <div className="w-50 mx-auto p-4">
+          <div className="w-25 mx-auto p-4">
             {url && (
               <div className="w-100">
                 <img className="w-100" src={url} alt="Screenshot" />
@@ -101,7 +101,7 @@ const Camera = () => {
         <div className="container">
           <div className=" mx-auto text-light p-4 mt-5">
             <h2 className="fw-light text-light mt-2">
-              Your Mode is Detected :{" "}
+              Your Mood is Detected :{" "}
               {emotion.charAt(0).toUpperCase() + emotion.slice(1)}
               {emotion === "happy" && (
                 <SentimentSatisfiedAltIcon className="fs-1 mx-2 mb-2" />
