@@ -46,8 +46,8 @@ const Camera = () => {
     <>
       <div id = 'camera' className="bg-theme-light pb-5">
         <div className="container py-5">
-          <h3 className="pt-5 text-light fs-2">
-            Camera is finding you Please Look at the Camera
+          <h3 className="pt-5 text-light fs-2 fw-light">
+            Camera is searching you Please Look at the Camera
           </h3>
           <p className="text-light py-3 fw-light">
             There is one thing the photograph must contain, the humanity of the
@@ -97,7 +97,7 @@ const Camera = () => {
           </div>
         </div>
       </div>
-      <div className="cardBg py-5">
+      <div id='musiclist' className="cardBg py-5">
         <div className="container">
           <div className=" mx-auto text-light p-4 mt-5">
             <h2 className="fw-light text-light mt-2">

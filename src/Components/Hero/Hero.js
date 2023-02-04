@@ -31,14 +31,21 @@ export default function Hero() {
       <div className="d-flex py-5 my-5 container text-start">
         <div className="w-50 mx-auto h-100 px-3 my-auto">
           <div className="d-flex">
-            <h3 className="mb-5 fs-3 rounded-3 px-3 py-2 bg-contact text-light">
+            <h3 className="mb-4 fs-3 rounded-3 px-3 py-2 bg-contact text-light">
               Step{" "}
               <span className="textAbout fs-4 my-auto bg-info text-white rounded-circle p-3">
                 01
               </span>
             </h3>
           </div>
-          <h5 className="ms-1">Scan your face in our built in Camera .</h5>
+          <div className="d-flex">
+          <h5 className="ms-1 my-auto">Scan your face in our built in Camera .</h5>
+          <button className="btn btn-info text-light ms-2 px-3 rounded-pill"> <a className="text-decoration-none text-white" href="#camera">Find Camera</a> </button>
+            
+          </div>
+          
+
+          
         </div>
         <div className="w-50">
           <img src={step1} alt="" className="s-pic m-0 p-0" width="100%" />
@@ -47,7 +54,7 @@ export default function Hero() {
       <div className="d-flex pb-5 mb-5 container text-start bg-gray">
         <div className="w-50 mx-auto h-100 px-3 my-auto">
           <div className="d-flex">
-            <h3 className="mb-5 fs-3 rounded-3 px-3 py-2 bg-contact text-light">
+            <h3 className="mb-4 fs-3 rounded-3 px-3 py-2 bg-contact text-light">
               Step{" "}
               <span className="textAbout fs-4 my-auto bg-info text-white rounded-circle p-3">
                 02
