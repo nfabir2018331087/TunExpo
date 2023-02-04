@@ -9,10 +9,10 @@ export default function Navigation() {
       <Nav className="container my-auto" activeKey="/">
       <Nav.Item className=' d-flex'>
         <img src={logo} width="55px" height="50px" alt="" className='rounded-3 my-auto'/>
-        <Nav.Link href="/" className='text-light me-5 my-auto brand-name'>TunExpo</Nav.Link>
+        <Nav.Link href="/home" className='text-light me-5 my-auto brand-name'>TunExpo</Nav.Link>
         </Nav.Item>
         <Nav.Item className=' d-flex'>
-          <Nav.Link href="#Music" className='text-light my-auto'>Musics</Nav.Link>
+          <Nav.Link href="/home#camera" className='text-light my-auto'>Musics</Nav.Link>
         </Nav.Item>
          {/* <Nav.Item className=' d-flex'>
           <Nav.Link eventKey="link-1" className='text-light my-auto'>Videos</Nav.Link>

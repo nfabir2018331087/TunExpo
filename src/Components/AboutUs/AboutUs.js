@@ -3,6 +3,9 @@ import "./AboutUs.css";
 import './style.css'
 import Container from "react-bootstrap/Container";
 import ab from "../../img/about.jpg";
+import dp1 from "../../img/1m.jpg";
+import dp2 from "../../img/2a.jpg";
+import dp5 from "../../img/5a.jpg";
 import dp4 from '../../img/dp44.jpg'
 import dp3 from '../../img/dp3.jpeg'
 
@@ -51,7 +54,7 @@ export default function AboutUs() {
                 <div className="column py-4 rounded-3 border border-info">
                     <div className="team-6">
                         <div className="team-img">
-                            <img src={dp3} className="" alt="Team Image"  />
+                            <img src={dp1} className="" alt="Team Image"  />
                         </div>
                         <div className="team-content">
                         <h4>Muhit Mahmud</h4>
@@ -69,7 +72,7 @@ export default function AboutUs() {
                 <div className="column py-4 rounded-3 border border-info">
                     <div className="team-6">
                         <div className="team-img">
-                        <img src={dp3} alt="Team Image"/>
+                        <img src={dp2} alt="Team Image"/>
                         </div>
                         <div class="team-content">
                             <h4>Amir Hamza</h4>
@@ -104,7 +107,7 @@ export default function AboutUs() {
                 </div>
                 
             </div> 
-            <div className="row d-flex justify-content-center gap-5 ">
+            <div className="row d-flex justify-content-center gap-5 pb-5">
                 <div className="column py-4 rounded-3 border border-info me-4">
                     <div className="team-6">
                         <div className="team-img">
@@ -112,7 +115,7 @@ export default function AboutUs() {
                         </div>
                         <div className="team-content">
                            <h4>Abdul Kader Akash</h4>
-                            <h3>Frontend & AI Model Analyzer</h3>
+                            <h3>Frontend , Backend & AI Model Analyzer</h3>
                             <div className="team-social">
                                 <a className="social-tw" href=""><i className="fab fa-twitter"></i></a>
                                 <a className="social-fb" href=""><i className="fab fa-facebook-f"></i></a>
@@ -126,11 +129,11 @@ export default function AboutUs() {
                 <div className="column py-4 rounded-3 border border-info ms-4">
                     <div className="team-6">
                         <div className="team-img">
-                        <img src={dp3} alt="Team Image"/>
+                        <img src={dp5} alt="Team Image"/>
                         </div>
                         <div className="team-content">
                         <h4>Ahmadul Islam</h4>
-                            <h3>Frontend , Backend & AI Model Analyzer</h3>
+                            <h3>AI Model Analyzer</h3>
                             <div className="team-social">
                                 <a className="social-tw" href=""><i className="fab fa-twitter"></i></a>
                                 <a className="social-fb" href=""><i className="fab fa-facebook-f"></i></a>

@@ -15,3 +15,10 @@
 .fontP{
     font-weight: 300;
 }
+.bg-gray{
+    
+}
+.bg-contact{
+    background-color: rgb(0, 42, 125);
+    color:white !important;
+}
