@@ -20,7 +20,7 @@ export default function Hero() {
             <button className="btn-primary btn px-5 py-2 rounded-3 fs-5">
               {" "}
               <GraphicEqIcon className="me-1 my-auto" />{" "}
-              <a className="text-decoration-none text-light" href="#camera">
+              <a className="text-decoration-none text-light" href="#steps">
                 Explore TuneExpo
               </a>
             </button>
@@ -28,7 +28,7 @@ export default function Hero() {
           <div className="w-50"></div>
         </div>
       </div>
-      <div className="d-flex py-5 my-5 container text-start">
+      <div id="steps" className="d-flex py-5 my-5 container text-start">
         <div className="w-50 mx-auto h-100 px-3 my-auto">
           <div className="d-flex">
             <h3 className="mb-4 fs-3 rounded-3 px-3 py-2 bg-contact text-light">

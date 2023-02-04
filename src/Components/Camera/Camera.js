@@ -57,7 +57,7 @@ const Camera = () => {
         </div>
 
         <div className="container d-flex w-100">
-          <div className="w-25 mx-auto p-4">
+          <div className="w-25 mx-auto ">
             <Webcam
               ref={webcamRef}
               screenshotFormat="image/jpeg"
@@ -66,7 +66,12 @@ const Camera = () => {
               className="wCam"
             />
           </div>
-          <div className="w-25 mx-auto p-4">
+          <div className="w-11 my-auto"> 
+          <h3 className="text-light fw-light">Mood: {" "} {emotion.charAt(0).toUpperCase() + emotion.slice(1)}</h3>
+          <button className="btn btn-info px-4 py-2 mt-4"><a href="#musiclist" className="text-light text-decoration-none">Music List</a></button>
+
+          </div>
+          <div className="w-25 mx-auto ">
             {url && (
               <div className="w-100">
                 <img className="w-100" src={url} alt="Screenshot" />
