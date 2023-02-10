@@ -22,3 +22,11 @@ project-group_09 created by GitHub Classroom
    - scikit-learn
 6. Run the command `python server.py` to start the server on port 5000(default).
 7. \***\*Important**. To be able to fetch songs from spotify api, the server needs an api access token. Open a new brower tab and go to **"localhost:5000/api/auth"**. This will prompt the user to sign in with their spotify account. After successful sign in, the server will receive the access token. **You should always perform this step before opening up the frontend.**
+
+
+###Frontend
+1. Fontend is developed by react(version : ^18.2.0 ) . You must have (Node JS) in your system .
+2. Open  the terminal and  paste it "cd/Tune.Expo-Music-recommender-App"
+3. Then run "npm install"
+4. Make sure backend is runnug then run  "npm start" for frontend
+
