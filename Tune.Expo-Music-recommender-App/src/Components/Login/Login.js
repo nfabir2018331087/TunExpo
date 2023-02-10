@@ -68,7 +68,7 @@ const Login = () => {
         googlelog?<h2 className=" my-4 pt-5 text-center "><span className="text-danger">Congratulation</span> Google lognin is Done !!!!</h2>:<h2 className="my-4 text-center pt-5"></h2>
      }
      {
-      user&&<><h2> <span className="text-danger">Congratulation!! </span> For your brilient success </h2> <button className="btn btn-info mt-3" ><a className="text-decoration-none text-light" href="/home">Go Home</a></button> </>
+      user&&<><h2> <span className="text-danger">Congratulation!! </span> on your brilliant success </h2> <button className="btn btn-info mt-3" ><a className="text-decoration-none text-light" href="/home">Go Home</a></button> </>
      }
     <div className="text-center d-flex ">
       <div className="d-flex shadow-lg mx-auto my-5 marginTopBot">
