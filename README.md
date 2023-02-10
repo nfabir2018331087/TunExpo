@@ -26,8 +26,8 @@ project-group_09 created by GitHub Classroom
 
 ## Frontend
 
-1. Fontend is developed by react(version : ^18.2.0 ) . You must have (Node JS) in your system .
+1. Fontend is developed using React JS(version : ^18.2.0 ) . You must have (Node JS) in your system .
 2. Open  the terminal and  paste it "cd/Tune.Expo-Music-recommender-App"
 3. Then run "npm install"
-4. Make sure backend is runnug then run  "npm start" for frontend
+4. Make sure backend is runnug then run  "npm start" for starting the frontend
 
