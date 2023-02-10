@@ -1,23 +1,10 @@
 # AI Project - Group 09
 
-This is a repository of Group 9 for Artificial Intelligence project of CSE 338 course.
+This is a repository for Artificial Intelligence Lab(CSE 338) project of Group 09.
 
 ## Project Title: TunExpo
 
-A music recommendation system based on facial emotion recognition using deep learning.
-
-## Group Members:
-
-1. **Amir Hamza**  
-   Reg No: 2018331011
-2. **MD. Abdul Kadir**  
-   Reg No: 2018331055
-3. **Nafis Fuad Abir**  
-   Reg No: 2018331087
-4. **Ahmadul Hasan**  
-   Reg No: 2018331109
-5. **Muhit Mahmud**  
-   Reg No: 2018331113
+A music recommendation system based on facial emotion recognition. Mainly this project is done using deep learning. In terms of building website, Javascript(React) and Python(Flask) frameworks are used for frontend and backend respectively. Spotify API is used for whole music purpose.
 
 ## How to run the project
 
@@ -47,4 +34,23 @@ A music recommendation system based on facial emotion recognition using deep lea
 2. Open  the terminal and  paste it "cd/Tune.Expo-Music-recommender-App"
 3. Then run "npm install"
 4. Make sure backend is runnug then run  "npm start" for starting the frontend
+
+## Group Members:
+
+1. **Amir Hamza**  
+   Reg No: 2018331011
+2. **MD. Abdul Kadir**  
+   Reg No: 2018331055
+3. **Nafis Fuad Abir**  
+   Reg No: 2018331087
+4. **Ahmadul Hasan**  
+   Reg No: 2018331109
+5. **Muhit Mahmud**  
+   Reg No: 2018331113
+   
+## Supervisor
+
+#### Enamul Hassan  
+Assistant Professor,  
+Department of CSE, SUST
 
