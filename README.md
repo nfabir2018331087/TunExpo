@@ -6,7 +6,7 @@ project-group_09 created by GitHub Classroom
 
 **Following instructions are only for windows operating system.**
 
-#### Backend:
+### Backend:
 
 1. The backend is built with flask. So make sure you have python installed in your system. The latest version doesn't work with tensorflow. We recommend version 3.10.10. You should install the 64-bit version. You can download this from [link](https://www.python.org/downloads/release/python-31010/ "python").
 2. Open command prompt and cd to the backend directory of this project. `cd <path\to\backend>`.
